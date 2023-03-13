@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wingfling-landing-page/static/css/main.ed53dd95.css",
-    "main.js": "/wingfling-landing-page/static/js/main.d6908e62.js",
+    "main.css": "/wingfling-landing-page/static/css/main.fa24d6c4.css",
+    "main.js": "/wingfling-landing-page/static/js/main.105708d5.js",
     "static/js/787.45706f36.chunk.js": "/wingfling-landing-page/static/js/787.45706f36.chunk.js",
     "static/media/4.jpg": "/wingfling-landing-page/static/media/4.1eb9b8ed4e34eecd34f8.jpg",
     "static/media/5.jpg": "/wingfling-landing-page/static/media/5.ea0da00342c2a42e930e.jpg",
@@ -14,12 +14,12 @@
     "static/media/playstore.png": "/wingfling-landing-page/static/media/playstore.eb4f576bd3f0f2c0c6f8.png",
     "static/media/logo.png": "/wingfling-landing-page/static/media/logo.d332b3e4247274186bab.png",
     "index.html": "/wingfling-landing-page/index.html",
-    "main.ed53dd95.css.map": "/wingfling-landing-page/static/css/main.ed53dd95.css.map",
-    "main.d6908e62.js.map": "/wingfling-landing-page/static/js/main.d6908e62.js.map",
+    "main.fa24d6c4.css.map": "/wingfling-landing-page/static/css/main.fa24d6c4.css.map",
+    "main.105708d5.js.map": "/wingfling-landing-page/static/js/main.105708d5.js.map",
     "787.45706f36.chunk.js.map": "/wingfling-landing-page/static/js/787.45706f36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed53dd95.css",
-    "static/js/main.d6908e62.js"
+    "static/css/main.fa24d6c4.css",
+    "static/js/main.105708d5.js"
   ]
 }
