@@ -37,7 +37,7 @@ function App() {
             <a href="https://apps.apple.com/us/app/apple-store/id375380948">
               <img src={appStore} alt="Download on the App Store" />
             </a>
-            <a href="#">
+            <a href="https://play.google.com/store/apps/details?id=com.roblox.client&hl=en_US&gl=US">
               <img src={playStore} alt="Get it on Google Play" />
             </a>
         </div>
