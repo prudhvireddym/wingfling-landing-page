@@ -21,26 +21,6 @@ nav {
   margin-top: 2em;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-li {
-  margin-right: 1em;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-a:hover {
-  color: #007bff;
-}
-
 .download {
   margin-top: 2em;
   display: flex;
@@ -74,6 +54,7 @@ p {
   text-align: center;
   color: #fff;
   margin-top: -50px;
+  font-weight: bold;
 }
 
 button {
