@@ -34,7 +34,7 @@ function App() {
         <p>Convert your dating chats into actual dates</p>
 
         <div className="download">
-            <a href="#">
+            <a href="https://apps.apple.com/us/app/apple-store/id375380948">
               <img src={appStore} alt="Download on the App Store" />
             </a>
             <a href="#">
