@@ -29,8 +29,8 @@ function App() {
   return (
     <div className="container">
       <header>
-        <img src={wingFingLogo} className='logoImage' alt="App icon" />
         <h1>Wingfling</h1>
+        <img src={wingFingLogo} className='logoImage' alt="App icon" />
         <p>Convert your dating chats into actual dates</p>
 
         <div className="download">
@@ -43,8 +43,8 @@ function App() {
         </div>
         <div className="imageSlider">
             <SimpleImageSlider
-              width={360}
-              height={740}
+              width={320}
+              height={650}
               images={images}
               showBullets={true}
               showNavs={true}

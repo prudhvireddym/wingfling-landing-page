@@ -64,7 +64,8 @@ h2 {
 h1 {
   text-align: center;
   color: #fff;
-  margin-top: -50px;
+  margin-top: 0px;
+  font-size: 60px;
 }
 
 p {
@@ -72,6 +73,7 @@ p {
   margin: 0 auto;
   text-align: center;
   color: #fff;
+  margin-top: -50px;
 }
 
 button {
@@ -100,7 +102,7 @@ footer {
 .logoImage {
   width: 300px;
   height:300px;
-  margin-top: -20px;
+  margin-top: -100px;
 }
 
 .imageSlider{
