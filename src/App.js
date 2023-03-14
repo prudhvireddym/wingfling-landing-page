@@ -31,7 +31,11 @@ function App() {
       <header>
         <h1>Wingfling</h1>
         <img src={wingFingLogo} className='logoImage' alt="App icon" />
-        <p>Convert your dating chats into actual dates</p>
+        <p>- Convert your dating chats into actual dates</p>
+        <p>- 100% free no in app purchases or Ads</p>
+        {/* <p>Increase your online charisma, 100% free, no ads!</p>
+        <p>Make any boring chat intrestesting, with unlimited opeaners</p>
+        <p>Upload chat screeshot to get instant customized response</p> */}
 
         <div className="download">
             <a href="https://apps.apple.com/us/app/apple-store/id375380948">
@@ -43,13 +47,21 @@ function App() {
         </div>
         <div className="imageSlider">
             <SimpleImageSlider
-              width={320}
-              height={650}
+              width={260}
+              height={545}
               images={images}
               showBullets={true}
               showNavs={true}
             />
           </div>
+          <div className="download">
+            <a href="https://apps.apple.com/us/app/apple-store/id375380948">
+              <img src={appStore} alt="Download on the App Store" />
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.roblox.client&hl=en_US&gl=US">
+              <img src={playStore} alt="Get it on Google Play" />
+            </a>
+        </div>
       </header>
       {/* <footer>
         
