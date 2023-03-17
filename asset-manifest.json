@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/wingfling-landing-page/static/css/main.391b422e.css",
-    "main.js": "/wingfling-landing-page/static/js/main.2fbecd7f.js",
-    "static/js/787.45706f36.chunk.js": "/wingfling-landing-page/static/js/787.45706f36.chunk.js",
-    "static/media/4.jpg": "/wingfling-landing-page/static/media/4.1eb9b8ed4e34eecd34f8.jpg",
-    "static/media/5.jpg": "/wingfling-landing-page/static/media/5.ea0da00342c2a42e930e.jpg",
-    "static/media/8.jpg": "/wingfling-landing-page/static/media/8.6109aa2a4fc65af317a8.jpg",
-    "static/media/3.jpg": "/wingfling-landing-page/static/media/3.2a7b552e4e23968fa157.jpg",
-    "static/media/2.jpg": "/wingfling-landing-page/static/media/2.4c2e9a1ee91f4e99ed3b.jpg",
-    "static/media/7.jpg": "/wingfling-landing-page/static/media/7.aa0cd13d968508f8ae2b.jpg",
-    "static/media/6.jpg": "/wingfling-landing-page/static/media/6.756082d431ad3f61419b.jpg",
-    "static/media/1.jpg": "/wingfling-landing-page/static/media/1.330be2ebe2d1f36f5c0e.jpg",
-    "static/media/playstore.png": "/wingfling-landing-page/static/media/playstore.eb4f576bd3f0f2c0c6f8.png",
-    "static/media/logo.png": "/wingfling-landing-page/static/media/logo.d332b3e4247274186bab.png",
-    "index.html": "/wingfling-landing-page/index.html",
-    "main.391b422e.css.map": "/wingfling-landing-page/static/css/main.391b422e.css.map",
-    "main.2fbecd7f.js.map": "/wingfling-landing-page/static/js/main.2fbecd7f.js.map",
-    "787.45706f36.chunk.js.map": "/wingfling-landing-page/static/js/787.45706f36.chunk.js.map"
+    "main.css": "/static/css/main.391b422e.css",
+    "main.js": "/static/js/main.3c58c9ad.js",
+    "static/js/787.45706f36.chunk.js": "/static/js/787.45706f36.chunk.js",
+    "static/media/4.jpg": "/static/media/4.1eb9b8ed4e34eecd34f8.jpg",
+    "static/media/5.jpg": "/static/media/5.ea0da00342c2a42e930e.jpg",
+    "static/media/8.jpg": "/static/media/8.6109aa2a4fc65af317a8.jpg",
+    "static/media/3.jpg": "/static/media/3.2a7b552e4e23968fa157.jpg",
+    "static/media/2.jpg": "/static/media/2.4c2e9a1ee91f4e99ed3b.jpg",
+    "static/media/7.jpg": "/static/media/7.aa0cd13d968508f8ae2b.jpg",
+    "static/media/6.jpg": "/static/media/6.756082d431ad3f61419b.jpg",
+    "static/media/1.jpg": "/static/media/1.330be2ebe2d1f36f5c0e.jpg",
+    "static/media/playstore.png": "/static/media/playstore.eb4f576bd3f0f2c0c6f8.png",
+    "static/media/logo.png": "/static/media/logo.d332b3e4247274186bab.png",
+    "index.html": "/index.html",
+    "main.391b422e.css.map": "/static/css/main.391b422e.css.map",
+    "main.3c58c9ad.js.map": "/static/js/main.3c58c9ad.js.map",
+    "787.45706f36.chunk.js.map": "/static/js/787.45706f36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.391b422e.css",
-    "static/js/main.2fbecd7f.js"
+    "static/js/main.3c58c9ad.js"
   ]
 }
