@@ -54,23 +54,32 @@ const PlayStoreButton = styled.img`
   cursor: pointer;
 `;
 
+
+const HighlightedText = styled.span`
+  color: #fff  ; // Add a different, modern color
+`;
+
 const Hero = () => {
   return (
     <HeroContainer>
-        <HeroIcon src="https://lh5.googleusercontent.com/9bxL3gf0YXAfvFoPBsRh38OYdqC918igjRs4dZ1uMSC5FIQj-E_9sElVMMeHqNh2SeY=w2400" alt="Wingfling Logo" />
-        <HeroTitle>Wingfling</HeroTitle>
-        <HeroSubtitle>Unleash the Power of AI to Boost Your Dating Game | Free for the first 1000 users</HeroSubtitle>
-        <DownloadButtons>
-          <AppStoreButton
-            src="https://lh3.googleusercontent.com/-dxFgBBDvKbfFfUQcWqmK4_V2hIz_4bB04tFuEwRpzGp6kHJZdQ75hVd3wReOm3FtBc=w2400"
-            alt="Download from App Store"
-          />
-          <PlayStoreButton
-            src="https://lh6.googleusercontent.com/MtTYDVbzO57Zl1wdkN3uxlRSBbGxFgmCRvIn0YAcPHNQSeOK6Ck9PhYPit29hqxKFW4=w2400"
-            alt="Download from Play Store"
-          />
-        </DownloadButtons>
-    </HeroContainer>
+    <HeroIcon src="https://lh5.googleusercontent.com/9bxL3gf0YXAfvFoPBsRh38OYdqC918igjRs4dZ1uMSC5FIQj-E_9sElVMMeHqNh2SeY=w2400" alt="Wingfling Logo" />
+    <HeroTitle>Wingfling</HeroTitle>
+    <HeroSubtitle>Unleash the Power of AI to Boost Your Dating Game | <HighlightedText>Free for the first 1000 users</HighlightedText></HeroSubtitle>
+    <DownloadButtons>
+    <a href="https://apps.apple.com/app/id1673598311" target="_blank" rel="noopener noreferrer">
+      <AppStoreButton
+        src="https://lh3.googleusercontent.com/-dxFgBBDvKbfFfUQcWqmK4_V2hIz_4bB04tFuEwRpzGp6kHJZdQ75hVd3wReOm3FtBc=w2400"
+        alt="Download from App Store"
+      />
+    </a>
+    <a href=" https://play.google.com/store/apps/details?id=com.wingfling" target="_blank" rel="noopener noreferrer">
+      <PlayStoreButton
+        src="https://lh6.googleusercontent.com/MtTYDVbzO57Zl1wdkN3uxlRSBbGxFgmCRvIn0YAcPHNQSeOK6Ck9PhYPit29hqxKFW4=w2400"
+        alt="Download from Play Store"
+      />
+    </a>
+    </DownloadButtons>
+</HeroContainer>
   );
   
 };
