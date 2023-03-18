@@ -42,7 +42,8 @@ const Footer = () => {
     { text: 'About', href: '/about' },
     { text: 'Privacy Policy', href: '/privacy' },
     { text: 'Terms of Service', href: '/terms' },
-    { text: 'Contact Us', href: '/contact' },
+    { text: 'Delete Data', href: '/delete' },
+    { text: 'Contact', href: '/contact' },
   ];
 
   return (
