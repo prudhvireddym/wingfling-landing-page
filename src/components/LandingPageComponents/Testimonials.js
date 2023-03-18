@@ -39,7 +39,6 @@ const TestimonialCard = styled.div`
   padding: 1rem;
   border-radius: 10px;
   min-width: 300px;
-  margin-left: 1rem;
 `;
 
 const TestimonialText = styled.p`
