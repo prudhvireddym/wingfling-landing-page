@@ -1,98 +1,73 @@
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2em;
-  background-color: #001628;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-header{
-  background-color: #001628;
-  padding: 1em;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-}
-
-nav {
-  margin-top: 2em;
-}
-
-.download {
-  margin-top: 2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.download img {
-  margin-right: 1em;
-  height: 50px;
-  width:160px;
-}
-
-main {
-  margin: 2em 0;
-}
-
-h2 {
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-  color: #fff;
-  margin-top: 0px;
-  font-size: 60px;
-}
-
-p {
-  max-width: 600px;
+.container {
+  max-width: 960px;
   margin: 0 auto;
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
+  padding: 1rem;
 }
 
-button {
-  display: block;
-  margin: 0 auto;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 1em 2em;
-  border-radius: 5px;
-  font-size: 1.2em;
-  cursor: pointer;
-  animation-name: jump;
-  animation-duration: 0.2s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: 1;
+.header {
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
+.header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
 
-footer {
-  background-color: #f8f9fa;
-  padding: 1em;
-  text-align: center;
+.header p {
+  margin-bottom: 0.5rem;
 }
 
 .logoImage {
-  width: 300px;
-  height:300px;
-  margin-top: -100px;
-  margin-bottom: -40px;
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
-.imageSlider{
-  margin-top: 35px;
-  margin-left: 2%;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
+
+.download {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.download img {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+
+.imageSlider {
+  max-width: 260px;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .download img {
+    width: 120px;
+  }
+}
+
+
