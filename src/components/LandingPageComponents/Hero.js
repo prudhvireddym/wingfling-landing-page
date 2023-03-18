@@ -58,7 +58,7 @@ const Hero = () => {
     <HeroContainer>
         <HeroIcon src="https://lh5.googleusercontent.com/9bxL3gf0YXAfvFoPBsRh38OYdqC918igjRs4dZ1uMSC5FIQj-E_9sElVMMeHqNh2SeY=w2400" alt="Wingfling Logo" />
         <HeroTitle>Wingfling</HeroTitle>
-        <HeroSubtitle>Unleash the Power of AI to Boost Your Dating Game - 100% Free</HeroSubtitle>
+        <HeroSubtitle>Unleash the Power of AI to Boost Your Dating Game | Free for the first 1000 users</HeroSubtitle>
         <DownloadButtons>
           <AppStoreButton
             src="https://lh3.googleusercontent.com/-dxFgBBDvKbfFfUQcWqmK4_V2hIz_4bB04tFuEwRpzGp6kHJZdQ75hVd3wReOm3FtBc=w2400"
