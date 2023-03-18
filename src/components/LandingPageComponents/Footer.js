@@ -1,5 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+
+const StyledLink = styled(Link)`
+  // Add your custom styles here
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
 
 const FooterContainer = styled.footer`
   display: flex;
@@ -31,6 +43,8 @@ const FooterLink = styled.a`
   }
 `;
 
+
+
 const FooterCopyright = styled.p`
   font-size: 0.8rem;
   text-align: center;
@@ -50,8 +64,8 @@ const Footer = () => {
     <FooterContainer>
       <FooterLinks>
         {links.map((link, index) => (
-          <FooterLink key={index} href={link.href}>
-            {link.text}
+          <FooterLink key={index} >
+             <StyledLink to={link.href}>{link.text}</StyledLink>
           </FooterLink>
         ))}
       </FooterLinks>
