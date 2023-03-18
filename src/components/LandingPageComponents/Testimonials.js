@@ -21,19 +21,15 @@ const TestimonialsTitle = styled.h2`
 `;
 
 const TestimonialsSlider = styled.div`
-  display: flex;
-  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   padding: 1rem;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  -webkit-overflow-scrolling: touch;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
+  width: 100%;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
 `;
-
 const TestimonialCard = styled.div`
   display: flex;
   flex-direction: column;
@@ -43,6 +39,7 @@ const TestimonialCard = styled.div`
   padding: 1rem;
   border-radius: 10px;
   min-width: 300px;
+  margin-left: 1rem;
 `;
 
 const TestimonialText = styled.p`
