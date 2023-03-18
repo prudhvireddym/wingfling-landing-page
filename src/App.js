@@ -11,7 +11,7 @@ import DeleteInstructions from './components/DeleteData';
 function App() {
   return (
     <Router>
-      <Routes>
+      <Routes basename='/'>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutUS />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
