@@ -22,11 +22,12 @@ const TestimonialsTitle = styled.h2`
 
 const TestimonialsSlider = styled.div`
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   gap: 1rem;
   padding: 1rem;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
 
   &::-webkit-scrollbar {
     display: none;
