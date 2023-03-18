@@ -22,10 +22,11 @@ const TestimonialsTitle = styled.h2`
 
 const TestimonialsSlider = styled.div`
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
   gap: 1rem;
   padding: 1rem;
   scrollbar-width: none;
+  -ms-overflow-style: none;
 
   &::-webkit-scrollbar {
     display: none;
@@ -61,15 +62,15 @@ const Testimonials = () => {
   const testimonialData = [
     {
       text: 'Wingfling has completely transformed my online dating experience. I feel much more confident and in control of my conversations.',
-      name: 'John Doe',
+      name: 'Michael Smith',
     },
     {
       text: 'This app is a game-changer! I never have to worry about what to say next or how to respond to a tricky message.',
-      name: 'Jane Smith',
+      name: 'Emily Johnson',
     },
     {
       text: 'I used to struggle with keeping conversations engaging and fun, but now I have a wingman in my pocket to help me out!',
-      name: 'Michael Johnson',
+      name: 'Taylor Lee',
     },
   ];
 
@@ -89,4 +90,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-

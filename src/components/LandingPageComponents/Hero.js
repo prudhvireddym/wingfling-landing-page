@@ -17,6 +17,7 @@ const HeroIcon = styled.img`
   width: 15rem;
   height: 15rem;
   margin-bottom: 1rem;
+  margin-top: -15rem;
 `;
 
 const HeroTitle = styled.h1`
