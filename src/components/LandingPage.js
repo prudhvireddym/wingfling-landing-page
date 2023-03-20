@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Hero from './LandingPageComponents/Hero';
 import Features from './LandingPageComponents/Features';
 import Testimonials from './LandingPageComponents/Testimonials';
