@@ -1,10 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from "react-ga4";
 
 
 const PrivacyPolicy = () => {
   const appName = "Wingfling";
   const contactEmail = "prudhvisbusiness@gmail.com";
+
+  useEffect(() => {
+    ReactGA.initialize('G-EGTQPQ5Z6R');
+
+    ReactGA.send('pageview', { dp: '/privacy', dt: 'Privacy page visited' });
+  }, []);
 
   const PrivacyPolicyContainer = styled.div`
   max-width: 960px;

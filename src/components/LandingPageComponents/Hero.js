@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 
 
 const HeroContainer = styled.div`
@@ -62,6 +62,13 @@ const HighlightedText = styled.span`
 `;
 
 const Hero = () => {
+  useEffect(() => {
+    ReactGA.initialize('G-EGTQPQ5Z6R');
+
+  }, []);
+
+
+
   const trackAppStoreButtonClick = () => {
     console.log('App Store Button Clicked')
     ReactGA.event({

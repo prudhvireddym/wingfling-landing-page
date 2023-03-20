@@ -1,10 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from "react-ga4";
 
 
 const TermsOfService = () => {
   const appName = "Wingfling";
   const contactEmail = "prudhvisbusiness@gmail.com";
+
+  useEffect(() => {
+    ReactGA.initialize('G-EGTQPQ5Z6R');
+
+    ReactGA.send('pageview', { dp: '/terms', dt: 'Terms page visited' });
+  }, []);
 
   const TermsOfServiceContainer = styled.div`
   max-width: 960px;

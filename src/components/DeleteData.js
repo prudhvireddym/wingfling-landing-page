@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from "react-ga4";
+
 
 const InstructionsContainer = styled.div`
   display: flex;
@@ -30,6 +32,13 @@ const InstructionsText = styled.p`
 `;
 
 const DeleteInstructions = () => {
+
+  useEffect(() => {
+    ReactGA.initialize('G-EGTQPQ5Z6R');
+
+    ReactGA.send('pageview', { dp: '/delete', dt: 'Delete page visited' });
+  }, []);
+
   return (
     <InstructionsContainer>
       <InstructionsCard>

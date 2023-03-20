@@ -4,6 +4,7 @@ import Features from './LandingPageComponents/Features';
 import Testimonials from './LandingPageComponents/Testimonials';
 import Footer from './LandingPageComponents/Footer';
 import styled from 'styled-components';
+import ReactGA from "react-ga4";
 
 
 const LandingPageContainer = styled.div`
@@ -16,6 +17,13 @@ const LandingPageContainer = styled.div`
 `;
 
 const LandingPage = () => {
+
+  useEffect(() => {
+    ReactGA.initialize('G-EGTQPQ5Z6R');
+
+    ReactGA.send('pageview', { dp: '/', dt: 'Landing page visited' });
+  }, []);
+
   return (
     <LandingPageContainer>
       <Hero />

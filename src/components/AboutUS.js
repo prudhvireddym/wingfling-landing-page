@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from "react-ga4";
 
 const AboutUsContainer = styled.div`
   display: flex;
@@ -84,6 +85,11 @@ const SocialIcon = styled.img`
 
 
 const AboutUs = () => {
+  useEffect(() => {
+    ReactGA.initialize('G-EGTQPQ5Z6R');
+    ReactGA.send('about', { dp: '/about', dt: 'About page Visited' });
+  }, []);
+
     return (
         <AboutUsContainer>
           <AboutUsTitle>About</AboutUsTitle>

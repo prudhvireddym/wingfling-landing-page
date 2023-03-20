@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from "react-ga4";
 
 const ContactContainer = styled.div`
   display: flex;
@@ -50,6 +51,12 @@ const Contact = () => {
   const instagramLink = "https://www.instagram.com/imprudhvim/";
   const linkedinLink = "https://www.linkedin.com/in/iamprudhvireddy/";
   const twitterLink = "https://twitter.com/mprudhvireddi";
+
+  useEffect(() => {
+    ReactGA.initialize('G-EGTQPQ5Z6R');
+
+    ReactGA.send('pageview', { dp: '/contact', dt: 'Contact page visited' });
+  }, []);
 
   return (
     <ContactContainer>
