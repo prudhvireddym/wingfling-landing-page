@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from 'react-ga';
+
 
 const HeroContainer = styled.div`
   display: flex;
@@ -17,7 +19,7 @@ const HeroIcon = styled.img`
   width: 15rem;
   height: 15rem;
   margin-bottom: 1rem;
-  margin-top: -15rem;
+  margin-top: -12rem;
 `;
 
 const HeroTitle = styled.h1`
@@ -60,28 +62,47 @@ const HighlightedText = styled.span`
 `;
 
 const Hero = () => {
+  const trackAppStoreButtonClick = () => {
+    console.log('App Store Button Clicked')
+    ReactGA.event({
+      category: 'Button',
+      action: 'App Store Download',
+      label: 'App Store Button Clicked'
+    });
+  };
+
+  const trackPlayStoreButtonClick = () => {
+    console.log('Play Store Button Clicked')
+    ReactGA.event({
+      category: 'Button',
+      action: 'Play Store Download',
+      label: 'Play Store Button Clicked'
+    });
+  };
+
   return (
     <HeroContainer>
-    <HeroIcon src="https://lh5.googleusercontent.com/9bxL3gf0YXAfvFoPBsRh38OYdqC918igjRs4dZ1uMSC5FIQj-E_9sElVMMeHqNh2SeY=w2400" alt="Wingfling Logo" />
-    <HeroTitle>Wingfling</HeroTitle>
-    <HeroSubtitle>Unleash the Power of AI to Boost Your Dating Game | <HighlightedText>Free for the first 1000 users</HighlightedText></HeroSubtitle>
-    <DownloadButtons>
-    <a href="https://apps.apple.com/app/id1673598311" target="_blank" rel="noopener noreferrer">
-      <AppStoreButton
-        src="https://lh3.googleusercontent.com/-dxFgBBDvKbfFfUQcWqmK4_V2hIz_4bB04tFuEwRpzGp6kHJZdQ75hVd3wReOm3FtBc=w2400"
-        alt="Download from App Store"
-      />
-    </a>
-    <a href=" https://play.google.com/store/apps/details?id=com.wingfling" target="_blank" rel="noopener noreferrer">
-      <PlayStoreButton
-        src="https://lh6.googleusercontent.com/MtTYDVbzO57Zl1wdkN3uxlRSBbGxFgmCRvIn0YAcPHNQSeOK6Ck9PhYPit29hqxKFW4=w2400"
-        alt="Download from Play Store"
-      />
-    </a>
-    </DownloadButtons>
-</HeroContainer>
+      <HeroIcon src="https://lh5.googleusercontent.com/9bxL3gf0YXAfvFoPBsRh38OYdqC918igjRs4dZ1uMSC5FIQj-E_9sElVMMeHqNh2SeY=w2400" alt="Wingfling Logo" />
+      <HeroTitle>Wingfling</HeroTitle>
+      <HeroSubtitle>Unleash the Power of AI to Boost Your Dating Game | <HighlightedText>Free for the first 1000 users</HighlightedText></HeroSubtitle>
+      <DownloadButtons>
+        <a href="https://apps.apple.com/app/id1673598311" target="_blank" rel="noopener noreferrer">
+          <AppStoreButton
+            src="https://lh3.googleusercontent.com/-dxFgBBDvKbfFfUQcWqmK4_V2hIz_4bB04tFuEwRpzGp6kHJZdQ75hVd3wReOm3FtBc=w2400"
+            alt="Download from App Store"
+            onClick={trackAppStoreButtonClick}
+          />
+        </a>
+        <a href=" https://play.google.com/store/apps/details?id=com.wingfling" target="_blank" rel="noopener noreferrer">
+          <PlayStoreButton
+            src="https://lh6.googleusercontent.com/MtTYDVbzO57Zl1wdkN3uxlRSBbGxFgmCRvIn0YAcPHNQSeOK6Ck9PhYPit29hqxKFW4=w2400"
+            alt="Download from Play Store"
+            onClick={trackPlayStoreButtonClick}
+          />
+        </a>
+      </DownloadButtons>
+    </HeroContainer>
   );
-  
 };
 
 export default Hero;

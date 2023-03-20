@@ -3,8 +3,6 @@ import Hero from './LandingPageComponents/Hero';
 import Features from './LandingPageComponents/Features';
 import Testimonials from './LandingPageComponents/Testimonials';
 import Footer from './LandingPageComponents/Footer';
-// import Hero from './LandingPageComponents/Hero';
-// import Hero from './LandingPageComponents/Hero';
 import styled from 'styled-components';
 
 

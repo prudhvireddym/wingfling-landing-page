@@ -6,8 +6,12 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
 import Contact from './components/ContactUS';
 import DeleteInstructions from './components/DeleteData';
+import ReactGA from 'react-ga';
+
 
 function App() {
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
   return (
     <HashRouter basename="/">
       <Routes>
