@@ -46,13 +46,13 @@ const DownloadButtons = styled.div`
 
 const AppStoreButton = styled.img`
   width: 150px;
-  height: auto;
+  height: 50.3px;
   cursor: pointer;
 `;
 
 const PlayStoreButton = styled.img`
   width: 150px;
-  height: auto;
+  height: 50.3px;
   cursor: pointer;
 `;
 
@@ -91,7 +91,7 @@ const Hero = () => {
     <HeroContainer>
       <HeroIcon src="https://lh5.googleusercontent.com/9bxL3gf0YXAfvFoPBsRh38OYdqC918igjRs4dZ1uMSC5FIQj-E_9sElVMMeHqNh2SeY=w2400" alt="Wingfling Logo" />
       <HeroTitle>Wingfling</HeroTitle>
-      <HeroSubtitle>Unleash the Power of AI to Boost Your Dating Game | <HighlightedText>Free for the first 1000 users</HighlightedText></HeroSubtitle>
+      <HeroSubtitle>Make every dating chat interesting with wingfling AI | <HighlightedText>Currently free! for limited time only</HighlightedText></HeroSubtitle>
       <DownloadButtons>
         <a href="https://apps.apple.com/app/id1673598311" target="_blank" rel="noopener noreferrer">
           <AppStoreButton
