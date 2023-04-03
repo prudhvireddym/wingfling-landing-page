@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react';
 import styled from 'styled-components';
 import ReactGA from "react-ga4";
+import TagManager from 'react-gtm-module';
 
 
 const HeroContainer = styled.div`
@@ -64,6 +65,7 @@ const HighlightedText = styled.span`
 const Hero = () => {
   useEffect(() => {
     ReactGA.initialize('G-EGTQPQ5Z6R');
+    
 
   }, []);
 
@@ -76,6 +78,14 @@ const Hero = () => {
       action: 'App Store Download',
       label: 'App Store Button Clicked'
     });
+
+    TagManager.dataLayer({
+      dataLayer: {
+        event: 'conversion',
+        send_to: 'AW-11123902880/oaatCJG825UYEKCTpbgp',
+      },
+    });
+
   };
 
   const trackPlayStoreButtonClick = () => {
@@ -85,6 +95,14 @@ const Hero = () => {
       action: 'Play Store Download',
       label: 'Play Store Button Clicked'
     });
+
+    TagManager.dataLayer({
+      dataLayer: {
+        event: 'conversion',
+        send_to: 'AW-11123902880/ebE2CJS825UYEKCTpbgp',
+      },
+    });
+
   };
 
   return (
